@@ -47,6 +47,7 @@ header {
 
 .nav-link {
     list-style: none;
+    color: black;
 }
 
 .nav-link li {
@@ -56,6 +57,7 @@ header {
 
 .nav-link li a {
     transition: all 0.3s ease 0s;
+    color: black;
 }
 
 .nav-link li a:hover{
@@ -83,7 +85,7 @@ button:hover {
 }
 
 .about-cont, .contact-cont {
-    margin-left: auto;
+    margin-left: 37%;
     margin-right: auto;
     // text-align: center;
 }
