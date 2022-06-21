@@ -87,9 +87,15 @@ button:hover {
   margin-right: 1rem;
 }
 
-.about-cont, .contact-cont {
+.about-cont, .contact {
   margin-left: 32%;
   margin-right: auto;
   font-size: 25px;
+}
+
+.i-ctr-2 {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
