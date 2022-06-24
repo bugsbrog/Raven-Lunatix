@@ -147,8 +147,26 @@ button:hover {
 .image-cont img {
   width: 400px;
   height: auto;
-  float: left;
-  margin: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image-cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  padding: 5px;
+  gap: 50px 100px;
+  margin-left: 2rem;
+}
+
+.image {
+  padding: 15px;
 }
 
 section {
@@ -157,7 +175,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 1rem 18rem;
+  padding: 1rem 10rem;
   z-index: -1;
 }
 
