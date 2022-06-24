@@ -4,24 +4,29 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-.title h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-family: 'Austein-Script';
-  src: url("Austein-Script.eot");
-  src: url("Austein-Script.eot?#iefix") format("embedded-opentype"), url("Austein-Script.svg#Austein-Script") format("svg"), url("Austein-Script.ttf") format("truetype"), url("Austein-Script.woff") format("woff"), url("Austein-Script.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+:root {
+  --color-primary-night-eye: #191d2b;
+  --color-secondary-night-eye: #1fb0ab;
+  --color-white-night-eye: #FFFFFF;
+  --color-black-night-eye: #000;
+  --color-gray0-night-eye: #f8f8f8;
+  --color-gray-1-night-eye: #dbe1e8;
+  --color-gray-2-night-eye: #b2becd;
+  --color-gray-3-night-eye: #6c7983;
+  --color-gray-4-night-eye: #454e56;
+  --color-gray-5-night-eye: #2a2e35;
+  --color-gray-6-night-eye: #12181b;
 }
 
-li, a, button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ecf0f1;
-  text-decoration: none;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-black-night-eye);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 header {
@@ -37,13 +42,44 @@ header {
   padding: 30px 5%;
 }
 
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+.image-container {
+  margin-right: 0.5rem;
+}
+
+.raven {
+  width: 70px;
+  height: auto;
+  margin-right: 1rem;
+}
+
 .title-cont {
   cursor: pointer;
   margin-right: auto;
 }
 
-.image-container {
-  margin-right: 0.5rem;
+.title h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Austein-Script';
+  src: url("Austein-Script.eot");
+  src: url("Austein-Script.eot?#iefix") format("embedded-opentype"), url("Austein-Script.svg#Austein-Script") format("svg"), url("Austein-Script.ttf") format("truetype"), url("Austein-Script.woff") format("woff"), url("Austein-Script.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .nav-link {
@@ -75,27 +111,172 @@ button {
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  text-align: center;
 }
 
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-.raven {
-  width: 70px;
-  height: auto;
-  margin-right: 1rem;
+.about-cont {
+  text-align: center;
 }
 
-.about-cont, .contact {
-  margin-left: 32%;
-  margin-right: auto;
-  font-size: 25px;
+.about-cont h1 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
-.i-ctr-2 {
+section {
+  min-height: 100vh;
   width: 100%;
-  height: auto;
-  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 1rem 18rem;
+  z-index: -1;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.contact-content-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3.5rem;
+}
+
+.contact-content-cont .left-contact {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: 100%;
+}
+
+.contact-content-cont .left-contact h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.contact-content-cont .left-contact p.reach-out {
+  margin-top: 1.5rem;
+}
+
+.contact-content-cont .left-contact p {
+  margin: 1rem 0;
+  line-height: 1rem;
+}
+
+.contact-content-cont .left-contact .contact-info .contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center p;
+  text-align-margin: .3rem 0 !important;
+  text-align-padding: 0 !important;
+}
+
+.contact-content-cont .left-contact .contact-info .contact-item .icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px 1fr;
+      grid-template-columns: 40px 1fr;
+}
+
+.contact-content-cont .left-contact .contact-info .contact-item .icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.contact-content-cont .right-contact {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-left: 3rem;
+}
+
+.contact-content-cont .right-contact .input-control {
+  margin: 1.5rem 0;
+}
+
+.contact-content-cont .right-contact .input-control input, .contact-content-cont .right-contact .input-control textarea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: .8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: #D3D3D3;
+  width: 100%;
+  color: var(--color-black-night-eye);
+  resize: none;
+}
+
+.contact-content-cont .right-contact .i-ctrl-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-content-cont .right-contact .i-ctrl-2 :last-child {
+  margin-left: 1.5rem;
+}
+
+.contact-content-cont .right-contact .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact-content-cont .right-contact .submit-btn .btn-submit {
+  background-color: var(--color-secondary-night-eye);
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.contact-content-cont .right-contact .submit-btn .btn-submit button {
+  background-color: var(--color-secondary-night-eye);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.contact-content-cont .right-contact .submit-btn .submit {
+  padding: 5px 18px;
+  background-color: #0088a9;
+  text-align: center;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

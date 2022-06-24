@@ -5,52 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
-<body>
+<body class="main-content">
     <header>
-        <!-- <nav>
-            <ul class="nav-link">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav> -->
+            <nav>
+                <ul class="nav-link">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="local-artists.html">Local Artists</a></li>
+                </ul>
+            </nav>
         <section class="section sec4 contact" id="contact">
-            <div class="contact-container">
+            <div class="contact-cont">
                 <div class="main-title">
                     <h2>Contact Us</h2>
-                </div>
-                <div class="contact-content-cont">
-                        <!-- <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email:</span>
-                                </div> -->
-                                <!-- <p>
-                                    <span>&nbsp&nbspbugsbrog@gmail.com</span>
-                                </p> -->
-                            </div>
-                        </div>
-                        </div>
-                    <div class="right-contact">
-                        <form action="https://getform.io/f/40708ceb-b90e-4724-94f7-8d0afc399721" method="POST" class="contact-form">
-                            <div class="input-control i-ctrl-2">
-                            <input type="text" name="name" required placeholder="Name">
-                            <input type="email" name="email" required placeholder="Email Address">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here"></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <div class="btn-submit">
-                                    <button class="submit" type="submit">Submit</button>
+                    </div>
+                    <div class="contact-content-cont">
+                        <div class="left-contact">
+                            <h4>Let's Chat!</h4>
+                            <p class="reach-out">
+                                Here's how to reach us!
+                            </p>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>Email:</span>
+                                    </div>
+                                    <p>
+                                        <span>&nbsp&nbspravenlunatics@hushmail.com</span>
+                                    </p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-road"></i>
+                                        <span class="address">Street/Building:</span>
+                                    </div>
+                                    <p>
+                                        <span>
+                                            &nbsp&nbsp150 Hwy 89 Suite A
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-taxi"></i>
+                                        <span>City/State:</span>
+                                    </div>
+                                    <p>
+                                        <span>
+                                            &nbsp&nbspAlpine, Wyoming 83128
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span class="address">Mailing Address:</span>
+                                    </div>
+                                    <p>
+                                        <span>
+                                            &nbsp&nbspP.O. Box 3867
+                                        </span>
+                                    </p>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                        <div class="right-contact">
+                            <form action="https://getform.io/f/40708ceb-b90e-4724-94f7-8d0afc399721" method="POST" class="contact-form">
+                                <div class="input-control i-ctrl-2">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="input-control">
+                                    <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here"></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <div class="btn-submit">
+                                        <button class="submit" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </section>
+    </header>
 </body>
 </html>
