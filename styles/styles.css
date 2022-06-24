@@ -118,6 +118,13 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
+.home-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
 .about-cont {
   text-align: center;
 }
