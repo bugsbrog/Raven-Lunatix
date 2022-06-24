@@ -137,11 +137,16 @@ button:hover {
 .about-text {
     width: 30rem;
     height: auto;
-    // left: 0;
-    // right: 0;
     padding: 10px;
     text-align: center;
     margin: 2.5rem auto;
+}
+
+.image-cont img {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 0 25px;
 }
 
 // contact.html

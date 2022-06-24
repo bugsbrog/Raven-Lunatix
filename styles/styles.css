@@ -144,6 +144,13 @@ button:hover {
   margin: 2.5rem auto;
 }
 
+.image-cont img {
+  width: 400px;
+  height: auto;
+  float: left;
+  margin: 0 25px;
+}
+
 section {
   min-height: 100vh;
   width: 100%;
