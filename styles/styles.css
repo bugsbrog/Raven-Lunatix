@@ -137,7 +137,11 @@ button:hover {
 }
 
 .about-text {
-  margin: 3rem 0;
+  width: 30rem;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  margin: 2.5rem auto;
 }
 
 section {
