@@ -132,7 +132,6 @@ button:hover {
 .home-cont {
     width: 100%;
     height: auto;
-    // text-align: center;
 }
 
 .home-text {
@@ -151,6 +150,16 @@ button:hover {
 }
 
 // about.html
+
+.sec3 {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem 0;
+    z-index: -1;
+}
 
 .about-cont {
     text-align: center;
@@ -173,29 +182,26 @@ button:hover {
 .image-cont img {
     width: 400px;
     height: auto;
-    // float: left;
-    // margin-bottom: 5rem;
-    // margin-left: auto; 
-    // margin-right: 12rem;
-    display: flex;
-  justify-content: space-between;
 }
 
 .image-cont {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 5px;
-    gap: 50px 100px;
-    margin-left: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 5px;
+}
+
+.image img {
+    margin-top: 12px;
 }
 
 .image {
-    padding: 15px;
+    float: left;
+    padding: 10px;
 }
 
 // contact.html
 
-section {
+.sec4 {
     min-height: 100vh;
     width: 100%;
     position: absolute;
