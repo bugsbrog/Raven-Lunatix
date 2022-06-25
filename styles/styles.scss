@@ -115,11 +115,18 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.home-text {
+.home-cont {
     width: 100%;
     height: auto;
     text-align: center;
     margin: 1.5rem 0;
+}
+
+.image-container-2 img {
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem 0;
+    object-fit: cover;
 }
 
 // about.html
