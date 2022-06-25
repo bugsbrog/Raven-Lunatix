@@ -21,6 +21,20 @@
     --color-gray-6-night-eye: #12181b;
 }
 
+.light-mode {
+    --color-primary-night-eye: #FFFFFF;
+    --color-secondary-night-eye: #f99c93;
+    --color-white-night-eye: #454e56;
+    --color-black-night-eye: #000;
+    --color-gray0-night-eye: #f8f8f8;
+    --color-gray-1-night-eye: #6c7983;
+    --color-gray-2-night-eye: #6c7983;
+    --color-gray-3-night-eye: #6c7983;
+    --color-gray-4-night-eye: #454e56;
+    --color-gray-5-night-eye: #f8f8f8;
+    --color-gray-6-night-eye: #12181b;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
@@ -67,8 +81,8 @@ a {
     margin-right: auto;
 }
 
-.title h1 {
-font-size: 4rem;  
+.title {
+    font-size: 4rem;  
     text-align: center;
     font-family: 'Austein-Script';
     src: url('Austein-Script.eot');
