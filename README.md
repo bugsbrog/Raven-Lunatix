@@ -1,5 +1,5 @@
 # Raven-Lunatix
-### Raven Lunatix is a rock shop in Alpine Wyoming
+### Raven Lunatix is a rock shop in Alpine Wyoming that specializes in all things rocks - loose stones, carvings, geodes, points, crystals, fossils, decorative rocks, jewelry and gift items!
 <h3 align="left">Languages and Tools:</h3>
 
 <p align="left"> 
