@@ -249,9 +249,9 @@ button:hover {
 }
 
 .contact-content-cont .left-contact {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -webkit-box-flex: 2.2;
+      -ms-flex: 2.2;
+          flex: 2.2;
   width: 100%;
 }
 
