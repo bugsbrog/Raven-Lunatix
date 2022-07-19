@@ -100,8 +100,26 @@ a {
     color: #5A6A87;
 }
 
+.toggle-button {
+    position: absolute;
+    right: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+}
+
 button {
     margin-left: 20px;
+    left: 50px;
     padding: 9px 25px;
     background-color: var(--color-secondary-night-eye);
     border: none;
@@ -341,3 +359,5 @@ button:hover {
         }
     }
 }
+
+@import './media';
