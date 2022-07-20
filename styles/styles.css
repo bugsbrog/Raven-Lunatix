@@ -394,7 +394,7 @@ button:hover {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .raven {
     width: 3.5rem;
     margin: 0;
@@ -404,7 +404,6 @@ button:hover {
   }
   button {
     padding: 5px 15px;
-    margin-left: 0;
   }
   .toggle-button {
     display: -webkit-box;
@@ -414,9 +413,24 @@ button:hover {
   .navbar {
     width: 70%;
   }
-  .raven-lunatics {
-    width: 100%;
-    height: 30rem;
+  .image-cont {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding: 0 5px;
+  }
+  .image-cont img {
+    width: 200px;
+  }
+  h1.about {
+    font-size: 50px;
+  }
+  .about-text {
+    width: 70%;
+  }
+  .sec2 {
+    position: relative;
   }
 }
 /*# sourceMappingURL=styles.css.map */
